@@ -1,0 +1,11 @@
+CURD (POST, PUT, DELETE, GET): service_defs.feature, ai_agent_defs.feature, rdbms_defs.feature, cache_defs.feature, external_api_defs.feature
+POST, PUT, GET: service_api_endpoints.feature, agent_api_endpoints.feature, rdbms_schemas_and_tables.feature
+GET only: llm_model_defs.feature, llm_provider_defs.feature, tool_schemas_and_properties.feature
+
+
+errors:
+ApplicationDefController:
+success cases:cache_defs,rdbms_defs,rdbms_schemas_and_tables(update and delete pending, post is getting okay, but actually getting ny data),
+error cases : agent_api_endpoints,
+
+
